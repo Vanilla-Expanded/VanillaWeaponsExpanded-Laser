@@ -13,10 +13,7 @@
             <clipPath>Things/Interact_LaserGun</clipPath>
           </li>
         </grains>  
-        <volumeRange>
-          <min>16</min>        
-          <max>17</max>
-        </volumeRange>  
+        <volumeRange>16~17</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
@@ -33,14 +30,10 @@
             <clipPath>Things/Interact_UnstableLaserGun</clipPath>
           </li>
         </grains> 
-        <volumeRange>
-          <min>16</min>        
-          <max>17</max>
-        </volumeRange>  
+        <volumeRange>16~17</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
-
 
   <SoundDef>
     <defName>VWE_LaserShot_Light</defName>  
@@ -54,10 +47,7 @@
             <clipPath>Things/LaserShot_Light</clipPath>
           </li>
         </grains>  
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <volumeRange>35~35</volumeRange>   
       </li>
     </subSounds>
   </SoundDef>
@@ -74,14 +64,8 @@
             <clipPath>Things/UnstableLaserShot_Light</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
@@ -98,14 +82,8 @@
             <clipPath>Things/LaserShot_Rifle</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange> 
       </li>
     </subSounds>
   </SoundDef>
@@ -122,14 +100,8 @@
             <clipPath>Things/UnstableLaserShot_Rifle</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
@@ -146,14 +118,8 @@
             <clipPath>Things/LaserShot_Heavy</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
@@ -170,14 +136,8 @@
             <clipPath>Things/UnstableLaserShot_Heavy</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+        <pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
@@ -194,14 +154,8 @@
             <clipPath>Things/LaserShot_Electricity</clipPath>
           </li>
         </grains>      
-        <pitchRange>
-          <min>0.83</min>        
-          <max>1.15</max>
-        </pitchRange>
-        <volumeRange>
-          <min>35</min>        
-          <max>35</max>
-        </volumeRange>    
+<pitchRange>0.83~1.15</pitchRange>
+        <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
   </SoundDef>
