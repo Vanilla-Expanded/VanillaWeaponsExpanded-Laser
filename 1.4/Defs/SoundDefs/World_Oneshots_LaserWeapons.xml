@@ -10,7 +10,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/Interact_LaserGun</clipFolderPath>
+            <clipPath>Things/Interact_LaserGun</clipPath>
           </li>
         </grains>  
         <volumeRange>
@@ -30,7 +30,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/Interact_UnstableLaserGun</clipFolderPath>
+            <clipPath>Things/Interact_UnstableLaserGun</clipPath>
           </li>
         </grains> 
         <volumeRange>
@@ -51,7 +51,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/LaserShot_Light</clipFolderPath>
+            <clipPath>Things/LaserShot_Light</clipPath>
           </li>
         </grains>  
         <volumeRange>
@@ -71,7 +71,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/UnstableLaserShot_Light</clipFolderPath>
+            <clipPath>Things/UnstableLaserShot_Light</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -95,7 +95,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/LaserShot_Rifle</clipFolderPath>
+            <clipPath>Things/LaserShot_Rifle</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -119,7 +119,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/UnstableLaserShot_Rifle</clipFolderPath>
+            <clipPath>Things/UnstableLaserShot_Rifle</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -143,7 +143,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/LaserShot_Heavy</clipFolderPath>
+            <clipPath>Things/LaserShot_Heavy</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -167,7 +167,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/UnstableLaserShot_Heavy</clipFolderPath>
+            <clipPath>Things/UnstableLaserShot_Heavy</clipPath>
           </li>
         </grains>      
         <pitchRange>
@@ -191,7 +191,8 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Things/LaserShot_Electricity</clipFolderPath>
+            <clipPath>Things/LaserShot_Electricity</clipPath>
+            <clipPath>Things/LaserShot_Electricity</clipPath>
           </li>
         </grains>      
         <pitchRange>
