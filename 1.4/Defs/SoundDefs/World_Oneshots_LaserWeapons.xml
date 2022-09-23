@@ -4,7 +4,6 @@
   <SoundDef>
     <defName>VWE_Interact_LaserGun</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -21,7 +20,6 @@
   <SoundDef>
     <defName>VWE_Interact_UnstableLaserGun</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -38,7 +36,6 @@
   <SoundDef>
     <defName>VWE_LaserShot_Light</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -55,7 +52,6 @@
   <SoundDef>
     <defName>VWE_UnstableLaserShot_Light</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -73,7 +69,6 @@
   <SoundDef>
     <defName>VWE_LaserShot_Rifle</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -91,7 +86,6 @@
   <SoundDef>
     <defName>VWE_UnstableLaserShot_Rifle</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -109,7 +103,6 @@
   <SoundDef>
     <defName>VWE_LaserShot_Heavy</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -127,7 +120,6 @@
   <SoundDef>
     <defName>VWE_UnstableLaserShot_Heavy</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -145,7 +137,6 @@
   <SoundDef>
     <defName>VWE_LaserShot_Electricity</defName>  
     <context>MapOnly</context>
-    <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -154,7 +145,7 @@
             <clipPath>Things/LaserShot_Electricity</clipPath>
           </li>
         </grains>      
-<pitchRange>0.83~1.15</pitchRange>
+        <pitchRange>0.83~1.15</pitchRange>
         <volumeRange>35~35</volumeRange>  
       </li>
     </subSounds>
