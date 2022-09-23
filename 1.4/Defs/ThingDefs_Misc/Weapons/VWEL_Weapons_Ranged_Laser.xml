@@ -49,7 +49,7 @@
     </graphicData>
     <projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>10</damageAmountBase>
+		<damageAmountBase>13</damageAmountBase>
 		<armorPenetrationBase>0.66</armorPenetrationBase>
 		<stoppingPower>0.5</stoppingPower>
 		<speed>85</speed>
@@ -261,7 +261,7 @@
 
     <projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>9</damageAmountBase>
+		<damageAmountBase>12</damageAmountBase>
 		<armorPenetrationBase>0.60</armorPenetrationBase>
 		<stoppingPower>1.5</stoppingPower>
     </projectile>
@@ -376,7 +376,7 @@
 	<lifetime>60</lifetime>
     <projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>8</damageAmountBase>
+		<damageAmountBase>11</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>2</stoppingPower>
     </projectile>
@@ -491,7 +491,7 @@
 	<lifetime>120</lifetime>
     <projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>45</damageAmountBase>
+		<damageAmountBase>48</damageAmountBase>
 		<armorPenetrationBase>1</armorPenetrationBase>
 		<stoppingPower>3</stoppingPower>
     </projectile>
@@ -607,7 +607,7 @@
 
     <projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>7</damageAmountBase>
+		<damageAmountBase>10</damageAmountBase>
 		<armorPenetrationBase>0.32</armorPenetrationBase>
 		<stoppingPower>1</stoppingPower>
     </projectile>
@@ -737,7 +737,7 @@
 
     <projectile>
 		<damageDef>EMP</damageDef>
-		<damageAmountBase>12</damageAmountBase>
+		<damageAmountBase>15</damageAmountBase>
 		<armorPenetrationBase>0.45</armorPenetrationBase>
 		<stoppingPower>1</stoppingPower>
     </projectile>
@@ -852,7 +852,7 @@
     </graphicData>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>9</damageAmountBase>
+		<damageAmountBase>12</damageAmountBase>
 		<armorPenetrationBase>0.60</armorPenetrationBase>
 		<stoppingPower>0.5</stoppingPower>
 		<speed>85</speed>
@@ -956,7 +956,7 @@
 
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>10</damageAmountBase>
+		<damageAmountBase>13</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>1.5</stoppingPower>
     </projectile>
@@ -1060,7 +1060,7 @@
 	<lifetime>60</lifetime>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>4</damageAmountBase>
+		<damageAmountBase>7</damageAmountBase>
 		<armorPenetrationBase>0.56</armorPenetrationBase>
 		<stoppingPower>2</stoppingPower>
     </projectile>
@@ -1164,7 +1164,7 @@
 	<lifetime>120</lifetime>
     <projectile>
 		<damageDef>Burn</damageDef>
-		<damageAmountBase>36</damageAmountBase>
+		<damageAmountBase>39</damageAmountBase>
 		<armorPenetrationBase>1</armorPenetrationBase>
 		<stoppingPower>3</stoppingPower>
     </projectile>
