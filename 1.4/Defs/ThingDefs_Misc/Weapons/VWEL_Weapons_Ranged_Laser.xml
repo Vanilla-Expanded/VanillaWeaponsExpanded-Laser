@@ -3,13 +3,16 @@
   <ThingDef Name="BaseLaserGun" Abstract="True" ParentName="BaseWeapon">
     <techLevel>Ultra</techLevel>
     <smeltable>true</smeltable>
-	<tradeability>Sellable</tradeability>
+	<tradeability>All</tradeability>
     <thingCategories>
       <li>WeaponsRanged</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
+    <tradeTags>
+      <li>SpacerGun</li>
+    </tradeTags>
     <statBases>
       <Flammability>0.5</Flammability>
     </statBases>
@@ -37,6 +40,38 @@
       <researchPrerequisite>VWE_LaserWeapons</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
+  
+  <ThingDef Name="VWE_BaseLaserGunUltra" Abstract="True" ParentName="BaseWeapon">
+    <techLevel>Ultra</techLevel>
+    <smeltable>true</smeltable>
+	<tradeability>All</tradeability>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <tradeTags>
+      <li>SpacerGun</li>
+    </tradeTags>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
 
 
  <!-- ====================== Laser Pistol  ===================== -->
@@ -56,7 +91,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserPistol</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser pistol</label>
@@ -153,7 +188,7 @@
   
  <!-- ====================== Laser SMG  ===================== -->
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserSMG</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser SMG</label>
@@ -267,7 +302,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserRifle</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser rifle</label>
@@ -382,7 +417,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserShotgun</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser shotgun</label>
@@ -407,16 +442,6 @@
 		<Plasteel>70</Plasteel>
 		<ComponentSpacer>6</ComponentSpacer>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>
-      <unfinishedThingDef Inherit="False">UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite Inherit="False">VWE_UltratechLaserWeapons</researchPrerequisite>
-    </recipeMaker>
 	<techLevel>Ultra</techLevel>
     <weaponTags Inherit="False">
 	<li>SpacerGun</li>
@@ -497,7 +522,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserSniperRifle</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser sniper rifle</label>
@@ -522,16 +547,6 @@
 		<Plasteel>70</Plasteel>
 		<ComponentSpacer>8</ComponentSpacer>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>
-      <unfinishedThingDef Inherit="False">UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite Inherit="False">VWE_UltratechLaserWeapons</researchPrerequisite>
-    </recipeMaker>
 	<techLevel>Ultra</techLevel>
     <weaponTags Inherit="False">
 	<li>SpacerGun</li>
@@ -613,7 +628,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_LaserMinigun</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>laser minigun</label>
@@ -639,16 +654,6 @@
 		<Plasteel>100</Plasteel>
 		<ComponentSpacer>10</ComponentSpacer>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>
-      <unfinishedThingDef Inherit="False">UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite Inherit="False">VWE_UltratechLaserWeapons</researchPrerequisite>
-    </recipeMaker>
 	<techLevel>Ultra</techLevel>
     <weaponTags Inherit="False">
 	<li>SpacerGun</li>
@@ -743,7 +748,7 @@
     </projectile>
   </ThingDef>
   
- <ThingDef ParentName="BaseLaserGun">
+ <ThingDef ParentName="VWE_BaseLaserGunUltra">
     <defName>VWEL_Gun_TeslaGun</defName>
 	<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
     <label>tesla gun</label>
@@ -769,16 +774,6 @@
 		<Plasteel>80</Plasteel>
 		<ComponentSpacer>8</ComponentSpacer>
     </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>
-      <unfinishedThingDef Inherit="False">UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite Inherit="False">VWE_UltratechLaserWeapons</researchPrerequisite>
-    </recipeMaker>
 	<techLevel>Ultra</techLevel>
     <weaponTags Inherit="False">
 		<li>LaserGun</li>
