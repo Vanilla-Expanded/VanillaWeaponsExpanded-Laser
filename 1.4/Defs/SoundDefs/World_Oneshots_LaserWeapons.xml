@@ -192,7 +192,6 @@
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Things/LaserShot_Electricity</clipPath>
-            <clipPath>Things/LaserShot_Electricity</clipPath>
           </li>
         </grains>      
         <pitchRange>
