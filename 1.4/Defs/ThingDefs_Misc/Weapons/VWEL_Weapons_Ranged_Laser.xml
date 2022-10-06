@@ -665,9 +665,6 @@
 			<OverheatMoteThrown>HeatGlow</OverheatMoteThrown>
 			<OverheatMoteSize>1</OverheatMoteSize>
 		</li> 
-		<li> 
-			<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		</li>
 	  </comps>
     <tools>
       <li>
@@ -783,9 +780,6 @@
 			<OverheatMoteThrown>MicroSparksFast</OverheatMoteThrown>
 			<OverheatMoteSize>0.5</OverheatMoteSize>
 		</li> 
-		<li> 
-			<compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-		</li>
 	  </comps>
     <tools>
       <li>
