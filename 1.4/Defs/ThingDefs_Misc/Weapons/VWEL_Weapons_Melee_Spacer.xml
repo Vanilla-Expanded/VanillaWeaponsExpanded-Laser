@@ -1,6 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef Name="VWE_LaserSwordBase" Abstract="True" ParentName="BaseWeapon">
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>Melee</li>
+	  <li>MeleePiercer</li>
+    </weaponClasses>
+    <relicChance>1</relicChance>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+  </ThingDef>
+
+	<ThingDef ParentName="VWE_LaserSwordBase">
 		<defName>VWEL_LaserSword</defName>
 		<label>laser sword</label>
 		<description>An ultratech device consisting of a handle and an extendable laser blade. A weapon of gentlemen.</description>
@@ -18,6 +44,7 @@
 		</weaponTags>
 		<tradeTags>
 			<li>SpacerGun</li>
+			<li>WeaponMelee</li>
 		</tradeTags>
 		<costList>
 			<Steel>30</Steel>
