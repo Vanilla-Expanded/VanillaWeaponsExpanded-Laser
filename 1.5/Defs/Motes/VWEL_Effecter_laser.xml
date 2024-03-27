@@ -13,13 +13,61 @@
       <fadeOutTime>0.1</fadeOutTime>
     </mote>
   </ThingDef>
+  
+  <ThingDef ParentName="MoteBase">
+    <defName>HeatGlow</defName>
+    <graphicData>
+      <texPath>Things/Mote/FireGlow</texPath>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+	<mote>
+   <fadeInTime>2.6</fadeInTime>
+    <solidTime>1.5</solidTime>
+    <fadeOutTime>3.3</fadeOutTime>
+	 </mote>
+  </ThingDef>
+  
+   <ThingDef ParentName="MoteBase">
+    <defName>MicroSparksFast</defName>
+    <graphicData>
+      <texPath>Things/Mote/MicroSparks</texPath>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+	<mote>
+    <fadeInTime>0.15</fadeInTime>
+    <solidTime>0.3</solidTime>
+    <fadeOutTime>0.45</fadeOutTime>
+	 </mote>
+  </ThingDef>
+  
+  
+ 
+  
+  
+ 
+  
+  <FleckDef ParentName="FleckBase">
+    <defName>SparkThrownFast</defName>
+    <graphicData>
+      <texPath>Things/Mote/SparkThrown</texPath>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+      <solidTime>0.04</solidTime>
+      <fadeOutTime>0.13</fadeOutTime>
+      <collide>true</collide>
+  </FleckDef>
+  
+  
+
 
   <EffecterDef Name="VWELLaserImpact">
     <defName>VWELLaserImpact</defName>
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <moteDef>Mote_SparkFlash</moteDef>
+        <fleckDef>SparkFlash</fleckDef>
         <positionLerpFactor>0.6</positionLerpFactor>
         <chancePerTick>0.2</chancePerTick>
         <scale>
@@ -31,7 +79,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <positionRadius>0.2</positionRadius>
-        <moteDef>Mote_AirPuff</moteDef>
+        <fleckDef>AirPuff</fleckDef>
         <burstCount>
           <min>4</min>
           <max>5</max>
@@ -49,7 +97,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <positionRadius>0.02</positionRadius>
-        <moteDef>Mote_SparkThrownFast</moteDef>
+        <fleckDef>SparkThrownFast</fleckDef>
         <burstCount>
           <min>4</min>
           <max>5</max>
@@ -67,7 +115,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <positionRadius>0.02</positionRadius>
-        <moteDef>Mote_MicroSparksFast</moteDef>
+        <fleckDef>MicroSparksFast</fleckDef>
         <burstCount>
           <min>1</min>
           <max>1</max>
@@ -89,7 +137,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <positionRadius>0.1</positionRadius>
-        <moteDef>Mote_SparkFlash</moteDef>
+        <fleckDef>SparkFlash</fleckDef>
         <burstCount>
           <min>1</min>
           <max>1</max>
@@ -111,7 +159,7 @@
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
         <positionRadius>0.2</positionRadius>
-        <moteDef>Mote_AirPuff</moteDef>
+        <fleckDef>AirPuff</fleckDef>
         <burstCount>
           <min>4</min>
           <max>5</max>

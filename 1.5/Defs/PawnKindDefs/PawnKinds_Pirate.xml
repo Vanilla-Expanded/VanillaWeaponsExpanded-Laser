@@ -38,6 +38,7 @@
     <techHediffsChance>0.65</techHediffsChance>
     <combatEnhancingDrugsChance>0.80</combatEnhancingDrugsChance>
     <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+	 <initialResistanceRange>7~12</initialResistanceRange>
   </PawnKindDef>
 
 </Defs>
