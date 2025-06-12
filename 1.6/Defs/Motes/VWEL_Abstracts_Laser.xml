@@ -3,7 +3,7 @@
 
   <ThingDef>
     <defName>VWELBeamGraphic</defName>
-    <thingClass>VanillaWeaponsExpandedLaser.LaserBeamGraphic</thingClass>
+    <thingClass>VEF.Weapons.LaserBeamGraphic</thingClass>
     <drawOffscreen>true</drawOffscreen>
     <label>laser beam</label>
     
@@ -15,7 +15,7 @@
   </ThingDef>
 
   <ThingDef Abstract="True" Name="VWEL_Bullet_LaserGeneric" ParentName="BaseBullet">
-    <thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+    <thingClass>VEF.Weapons.LaserBeam</thingClass>
     <drawOffscreen>true</drawOffscreen>
     <beamGraphic>VWELBeamGraphic</beamGraphic>
    

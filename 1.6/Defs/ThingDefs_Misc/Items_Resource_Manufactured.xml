@@ -24,7 +24,7 @@
     <intricate>true</intricate>
     <tickerType>Normal</tickerType>
     <comps>
-      <li Class="RRO.CompProperties_RandomOutcomeComp">
+      <li Class="VEF.Things.CompProperties_RandomOutcomeComp">
         <canProvideTags>
           <li>SalvagedLaserGun</li>
         </canProvideTags>
